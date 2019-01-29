@@ -7,6 +7,55 @@
 
 package com.syh.MappingDemo;
 
+
+// 子弹类
+class Shot implements Runnable
+{
+    int x,y,direct;
+    int speed = 1;
+
+    public Shot(int x,int y,int direct){
+        this.x = x;
+        this.y = y;
+        this.direct = direct;
+    }
+
+    @Override
+    public void run() {
+        while (true){
+
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            switch (direct){
+                case 0:
+//                    向上
+                    y -= speed;
+                    break;
+                case 1:
+//                    向
+                    x += speed;
+                    break;
+                case 2:
+//                    向
+                    y += speed;
+                    break;
+                case 3:
+//                    向上
+                    x -= speed;
+                    break;
+
+            }
+
+            System.out.println("子弹坐标x="+x+"y="+y);
+//            子弹何时死亡
+        }
+    }
+}
+
 //坦克类
 class Tanke2
 {
@@ -85,15 +134,40 @@ class EnanyTanke2 extends Tanke2
         super(x,y);
     }
 
-
-
 }
 
 //我的坦克
 class Hero2 extends Tanke2 {
 
+//    子弹
+    Shot s = null;
+
     public Hero2(int x, int y) {
         super(x, y);
+
+    }
+
+//    坦克开火
+    public void shotEneny(){
+//        根据坦克的方向设置子弹的坐标
+        switch (this.direct){
+            case 0:
+               s = new Shot(x+10,y,0);
+               break;
+            case 1:
+                s = new Shot(x+30,y+10,1);
+                break;
+            case 2:
+                s = new Shot(x+10,y+30,2);
+                break;
+            case 3:
+                s = new Shot(x,y+10,3);
+                break;
+        }
+
+//        启动子弹
+        Thread t = new Thread(s);
+        t.start();
     }
 
     //    坦克向上移动

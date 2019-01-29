@@ -1,31 +1,22 @@
-
-/*
-*
-* 功能：坦克游戏的2.0版本
-* 1、画出坦克
-* 2、我的坦克可以上下左右移动
-*
-* */
 package com.syh.MappingDemo;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.awt.font.TextHitInfo;
 import java.util.Vector;
 
 
-public class MyTankeGame2 extends JFrame {
+public class MyTankeGame3 extends JFrame {
 
-    MyPanel2 mp = null;
+    MyPanel3 mp = null;
     public static void main(String[] args) {
-        MyTankeGame2 demo = new MyTankeGame2();
+        MyTankeGame3 demo = new MyTankeGame3();
     }
 
-    public MyTankeGame2()
+    public MyTankeGame3()
     {
-        mp = new MyPanel2();
+        mp = new MyPanel3();
 
         this.add(mp);
 
@@ -40,17 +31,17 @@ public class MyTankeGame2 extends JFrame {
 }
 
 //我的面板
-class MyPanel2 extends JPanel implements KeyListener
+class MyPanel3 extends JPanel implements KeyListener
 {
 
     //    定义一个我的坦克
     Hero2 hero = null;
-//    定义集合，存放敌人的坦克
+    //    定义集合，存放敌人的坦克
     Vector<EnanyTanke2> ets = new Vector<EnanyTanke2>();
-//    定义敌人坦克的数量
+    //    定义敌人坦克的数量
     int ecSize = 3;
 
-    public MyPanel2()
+    public MyPanel3()
     {
         hero = new Hero2(100,100);
 
@@ -78,6 +69,13 @@ class MyPanel2 extends JPanel implements KeyListener
         g.fillRect(0,0,400,300);
 //        画出我的坦克
         this.drawTank2(hero.getX(),hero.getY(),g,this.hero.direct,1);
+
+//        画出子弹
+        if (hero.s != null){
+            g.draw3DRect(hero.s.x,hero.s.y,100,100,false);
+        }
+
+
 //        画出敌人的坦克
         for (int i = 0; i<ets.size();i++){
             this.drawTank2(ets.get(i).getX(),ets.get(i).getY(),g,ets.get(i).getDirect(),0);
@@ -165,9 +163,11 @@ class MyPanel2 extends JPanel implements KeyListener
     }
 
 
-//    键按下处理，a-->左，s-->下，w-->上，d-->右
+    //    键按下处理，a-->左，s-->下，w-->上，d-->右
     @Override
     public void keyPressed(KeyEvent e) {
+
+        System.out.println("按下了键"+e.getKeyCode());
 
         if (e.getKeyCode() == KeyEvent.VK_W){
 //            设置我的坦克的方向
@@ -185,6 +185,14 @@ class MyPanel2 extends JPanel implements KeyListener
 //            向左
             this.hero.setDirect(3);
             this.hero.moveLeft();
+        }
+
+
+        if(e.getKeyCode() == KeyEvent.VK_J){
+//            玩家是否按j键
+//            开火
+            System.out.println("按下了J键");
+            this.hero.shotEneny();
         }
 
 //        必须重新绘制panel
