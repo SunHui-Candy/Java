@@ -1,3 +1,14 @@
+
+/*
+* 功能：
+* 我的坦克可以发射子弹
+*
+* 1、让敌人的坦克也能够发射字段
+* 2、当我方坦克击中敌人的坦克时，敌人的坦克就消失
+* 3、让敌人的坦克也可以自由随机的上下左右移动
+* 4、控制我方的坦克和敌人的坦克在规定范围移动
+* */
+
 package com.syh.MappingDemo;
 
 import javax.swing.*;
@@ -23,6 +34,10 @@ public class MyTankeGame3 extends JFrame {
 //        注册监听
         this.addKeyListener(mp);
 
+//       启动mp线程
+        Thread t = new Thread(mp);
+        t.start();
+
         this.setSize(400,300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -31,7 +46,7 @@ public class MyTankeGame3 extends JFrame {
 }
 
 //我的面板
-class MyPanel3 extends JPanel implements KeyListener
+class MyPanel3 extends JPanel implements KeyListener,Runnable
 {
 
     //    定义一个我的坦克
@@ -71,8 +86,8 @@ class MyPanel3 extends JPanel implements KeyListener
         this.drawTank2(hero.getX(),hero.getY(),g,this.hero.direct,1);
 
 //        画出子弹
-        if (hero.s != null){
-            g.draw3DRect(hero.s.x,hero.s.y,100,100,false);
+        if (hero.s != null && hero.s.isLive == true){
+            g.draw3DRect(hero.s.x,hero.s.y,1,1,false);
         }
 
 
@@ -191,7 +206,6 @@ class MyPanel3 extends JPanel implements KeyListener
         if(e.getKeyCode() == KeyEvent.VK_J){
 //            玩家是否按j键
 //            开火
-            System.out.println("按下了J键");
             this.hero.shotEneny();
         }
 
@@ -208,6 +222,22 @@ class MyPanel3 extends JPanel implements KeyListener
     @Override
     public void keyTyped(KeyEvent e) {
 
+    }
+
+
+    @Override
+    public void run() {
+//        每隔100毫秒重绘字段
+        while (true){
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+//            重绘
+            this.repaint();
+        }
     }
 }
 
