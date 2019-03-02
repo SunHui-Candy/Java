@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b690c05a-8745-4ead-b7cc-5c47ddfe25e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/syh/IODemo/File1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/IODemo/FileInputStream2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/IODemo/FileOutputStream3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/IODemo/ImageCopy4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/IODemo/TextCopy5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/MappingDemo/MyTankeGame4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/images/tanke1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/images/tanke2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/images/tanke3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/threadDemo/DeepThread4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syh/threadDemo/SellingTicketsRunnalbe5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/EnanyTanke2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/EnanyTanke2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/Hero2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/Hero2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/MyPanel3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/MyPanel3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/MyTankeGame3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/MyTankeGame3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/Shot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/Shot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/Tanke2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaData/com/syh/MappingDemo/Tanke2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syh/MappingDemo/MemberTanke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syh/MappingDemo/MemberTanke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syh/MappingDemo/MyTankeGame3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syh/MappingDemo/MyTankeGame3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syh/EventDemo/BallEvent2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syh/EventDemo/BallEvent2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,49 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/ImageCopy4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/File1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#1842#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/TextCopy5.java">
+        <entry file="file://$PROJECT_DIR$/src/com/syh/EventDemo/BallEvent2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#124#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/FileOutputStream3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="66" />
+            <state relative-caret-position="105">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/com/syh/swingActualDemo/QQDemo.java" />
         <option value="$PROJECT_DIR$/src/com/syh/MappingDemo/Mapping1.java" />
         <option value="$PROJECT_DIR$/src/com/syh/EventDemo/BallDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/syh/EventDemo/BallEvent2.java" />
         <option value="$PROJECT_DIR$/src/com/syh/EventDemo/Event1.java" />
         <option value="$PROJECT_DIR$/src/com/syh/EventDemo/MonitorEvent3.java" />
         <option value="$PROJECT_DIR$/src/com/syh/MappingDemo/MyTankeGame1.java" />
@@ -167,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/com/syh/MappingDemo/MyTankeGame4.java" />
         <option value="$PROJECT_DIR$/src/com/syh/IODemo/ImageCopy4.java" />
         <option value="$PROJECT_DIR$/src/com/syh/IODemo/TextCopy5.java" />
+        <option value="$PROJECT_DIR$/src/com/syh/EventDemo/BallEvent2.java" />
       </list>
     </option>
   </component>
@@ -177,8 +120,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="766" />
+    <option name="x" value="161" />
+    <option name="y" value="316" />
     <option name="width" value="1107" />
     <option name="height" value="877" />
   </component>
@@ -211,7 +154,15 @@
               <item name="JavaData" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="syh" type="462c0819:PsiDirectoryNode" />
-              <item name="IODemo" type="462c0819:PsiDirectoryNode" />
+              <item name="EventDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaData" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="syh" type="462c0819:PsiDirectoryNode" />
+              <item name="EventDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="BallEvent2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -350,17 +301,18 @@
       <workItem from="1548730939478" duration="7372000" />
       <workItem from="1548812519676" duration="17368000" />
       <workItem from="1548899289224" duration="14156000" />
+      <workItem from="1551510581342" duration="475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102782000" />
+    <option name="totallyTimeSpent" value="103257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="115" width="1107" height="877" extended-state="0" />
+    <frame x="161" y="316" width="1107" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.24109589" visible="true" weight="0.25164318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.24109589" visible="true" weight="0.25633803" />
       <window_info id="Structure" order="1" sideWeight="0.7589041" side_tool="true" weight="0.2373057" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -674,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/syh/EventDemo/BallEvent2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/syh/EventDemo/Event1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -738,20 +680,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/FileOutputStream3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/ImageCopy4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/File1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        <state relative-caret-position="840">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
           <folding>
             <element signature="e#0#1842#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -759,12 +698,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/ImageCopy4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/FileOutputStream3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="71" />
+        <state relative-caret-position="135">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="66" />
           <folding>
-            <element signature="e#0#122#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -772,9 +711,18 @@
     <entry file="file://$PROJECT_DIR$/src/com/syh/IODemo/TextCopy5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
-            <element signature="e#0#124#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/syh/EventDemo/BallEvent2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
