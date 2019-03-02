@@ -8,6 +8,7 @@
 *
 * 测试打标签1
 * 继续开发下一个版本，发现上一个版本的BUG
+* 测试打标签1，发现UBG后，在标签1上改好BUG发布版本
 * */
 
 package com.syh.EventDemo;
